@@ -1,0 +1,18 @@
+Operacion
+
+
+LOBBY
+• OP_Lobby:30                   Operacion de inicio del temporizador: tiempo actual
+• OP_Usuario:			Operacion de envia al cliente id unica
+• OP_Seleccion:Skull         	Operacion de seleccion de personaje del cliente:Personaje
+• OP_CargarJD:2:Skull:Wolf 	Operacion de Guardado de Jugadores y envio a cliente: Total jugadores: Personajes de todos los jugadores
+• OP_Salir			Operacion de cerrardo de Servido
+• OP_NuevoJuego: 		Operacion de generar un Juego Nuevo y enviar a todos los clientes
+
+
+JUEGO
+• OP_Jugador:1:Acciones			Operacion de acciones del jugador
+						Izquierda:Derecha:Saltando:
+						Planeando:Golpeando:Disparando
+
+
